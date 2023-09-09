@@ -1,0 +1,141 @@
+/*Zone grise principale*/
+
+.background-grey {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 6px;
+    background: #eee;
+}
+
+
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+h2 {
+    font-size: medium;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 3em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.bold {
+    font-style: bold;
+    
+}
+
+.img-caption {
+    text-align: center;
+    padding: 1.5%;
+}
+
+/*Fonts*/
+@font-face {
+    font-family: "Roboto";
+    src: url(../assets/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-ThinItalic";
+    src: url(../assets/Roboto-ThinItalic.ttf)
+}
+
+@font-face {
+    font-family: Roboto-Thin;
+    src: url(../assets/Roboto-Thin.ttf);
+}
+/*Fin fonts*/
+
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+    list-style-position: inside;
+}
+    
+
+ul li {
+    
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    margin-left: -10px;
+    padding-top: 2.5%;
+    
+    
+}
+
+
+
+blockquote, cite {
+    
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: justify;
+    line-height: 1.6;
+    padding-bottom: none;
+    
+}
+
+cite {
+    display: block;
+    padding-top: 5%;
+    
+}
+
+
+.fin {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+/*Zone image*/
+
+
+.img-div {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+    border-radius: 6px;
+}
+
+.img-div img {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+
+
+/*Fin zone image*/
+
