@@ -43,17 +43,17 @@ h3 {
 /*Fonts*/
 @font-face {
     font-family: "Roboto";
-    src: url(../assets/Roboto-Regular.ttf);
+    src: url(./Roboto-Regular.ttf);
 }
 
 @font-face {
     font-family: "Roboto-ThinItalic";
-    src: url(../assets/Roboto-ThinItalic.ttf)
+    src: url(./Roboto-ThinItalic.ttf)
 }
 
 @font-face {
     font-family: Roboto-Thin;
-    src: url(../assets/Roboto-Thin.ttf);
+    src: url(./Roboto-Thin.ttf);
 }
 /*Fin fonts*/
 
